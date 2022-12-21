@@ -22,4 +22,4 @@ def parse_args():
 if __name__ == "__main__":
     cfg = parse_args()
     engine = Engine(cfg)
-    engine.train()
+    engine.export()
